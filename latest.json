@@ -1,10 +1,10 @@
 {
-    "build":  9,
-    "tag":  "b9",
-    "title":  "Build 9 - Give each cycle a client and a sky to look at",
-    "commit":  "ddae7f4",
+    "build":  10,
+    "tag":  "b10",
+    "title":  "Build 10 - Make the sky promise readable",
+    "commit":  "69435ee",
     "kind":  "development",
     "sizeMb":  "55.7",
-    "publishedAt":  "2026-09-04T13:37:58Z",
+    "publishedAt":  "2026-09-04T14:22:23Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
