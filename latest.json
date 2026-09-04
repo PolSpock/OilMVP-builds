@@ -1,10 +1,10 @@
 {
-    "build":  10,
-    "tag":  "b10",
-    "title":  "Build 10 - Make the sky promise readable",
-    "commit":  "69435ee",
+    "build":  12,
+    "tag":  "b12",
+    "title":  "Build 12 - Add Android icon slots / reset volume list",
+    "commit":  "1161a15",
     "kind":  "development",
     "sizeMb":  "55.7",
-    "publishedAt":  "2026-09-04T14:22:23Z",
+    "publishedAt":  "2026-09-04T14:47:13Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
