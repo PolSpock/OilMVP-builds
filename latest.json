@@ -1,10 +1,10 @@
 {
-    "build":  7,
-    "tag":  "b7",
-    "title":  "Build 7 - Serve the APK only to an authenticated session",
-    "commit":  "e0146ec",
+    "build":  9,
+    "tag":  "b9",
+    "title":  "Build 9 - Give each cycle a client and a sky to look at",
+    "commit":  "ddae7f4",
     "kind":  "development",
     "sizeMb":  "55.7",
-    "publishedAt":  "2026-09-04T12:59:28Z",
+    "publishedAt":  "2026-09-04T13:37:58Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
