@@ -139,6 +139,36 @@
 		letter-spacing: 0.3px;
 	}
 
+	a.alt
+	{
+		display: block;
+		margin-top: 12px;
+		background: var(--panel-2);
+		color: var(--ink);
+		border: 1px solid var(--line);
+		text-decoration: none;
+		font-size: 16px;
+		font-weight: 600;
+		text-align: center;
+		border-radius: 14px;
+		padding: 16px 18px;
+		min-height: 56px;
+	}
+
+	a.alt small
+	{
+		display: block;
+		font-size: 12px;
+		font-weight: 500;
+		color: var(--ink-dim);
+		margin-top: 3px;
+	}
+
+	a.alt:active
+	{
+		background: #2c2721;
+	}
+
 	.gate
 	{
 		border-left: 3px solid var(--lock);
@@ -246,12 +276,19 @@
 			Telecharger l'APK
 			<small id="dlsize">toujours la plus recente</small>
 		</a>
+		<a class="alt" id="app" href="intent://github.com/PolSpock/OilMVP/releases#Intent;scheme=https;package=com.github.android;S.browser_fallback_url=https%3A%2F%2Fgithub.com%2FPolSpock%2FOilMVP%2Freleases;end">
+			Ouvrir dans l'app GitHub
+			<small>si le navigateur n'est pas connecte au compte</small>
+		</a>
 		<div class="gate">
-			<b>Acces reserve.</b> L'APK vit dans le depot prive : GitHub ne la sert qu'a un
-			navigateur connecte au compte. Un robot qui passe par ici recoit une page introuvable.
-			Si le lien renvoie une erreur 404, c'est que la session a expire :
-			<a href="https://github.com/login" target="_blank" rel="noopener">se connecter a GitHub</a>,
-			puis revenir ici.
+			<b>Acces reserve.</b> L'APK vit dans le depot prive : GitHub ne la sert qu'a une session
+			ayant acces au depot. Un robot qui passe par ici recoit une page introuvable.
+			<br><br>
+			Une erreur 404 ou une page blanche veut dire que la session manque, pas que la build
+			est cassee. Deux facons de la fournir : se connecter une fois a
+			<a href="https://github.com/login" target="_blank" rel="noopener">github.com</a> dans
+			ce navigateur, ou passer par le bouton ci-dessus, qui ouvre l'app GitHub sur la liste
+			des builds. Dans l'app, ouvre la derniere build et touche <b>OilMVP.apk</b>.
 		</div>
 	</div>
 
@@ -280,6 +317,13 @@
 <script>
 	( function ()
 	{
+		// L'URI intent:// n'existe que sur Android. Ailleurs le bouton ne ferait rien du tout,
+		// donc il disparait plutot que de mentir.
+		if ( !/Android/i.test( navigator.userAgent ) )
+		{
+			document.getElementById( "app" ).style.display = "none";
+		}
+
 		function mb ( value )
 		{
 			return String( value ).replace( ".", "," ) + " Mo";
