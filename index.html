@@ -289,7 +289,7 @@
 	</div>
 
 	<div class="qr">
-		<img id="qr" alt="QR vers cette page">
+		<img id="qr" src="qr.png" alt="QR vers cette page">
 		<p class="hint">Scanne pour ouvrir cette page sur le telephone</p>
 	</div>
 
@@ -331,10 +331,6 @@
 			}
 			return null;
 		}
-
-		var qr = document.getElementById( "qr" );
-		qr.src = "https://api.qrserver.com/v1/create-qr-code/?size=300x300&margin=0&data=" +
-			encodeURIComponent( location.href );
 
 		fetch( API, { headers: { "Accept": "application/vnd.github+json" } } )
 			.then( function ( r )
