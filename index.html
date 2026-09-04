@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#12100d">
+<meta name="robots" content="noindex, nofollow, noarchive">
 <title>OilMVP - builds de playtest</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#9968;</text></svg>">
 <style>
@@ -18,7 +19,7 @@
 		--ink-dim: #a89e90;
 		--accent: #f5a623;
 		--accent-ink: #1a1409;
-		--ok: #6fcf6f;
+		--lock: #7fb2e5;
 	}
 
 	*
@@ -106,14 +107,6 @@
 		margin: 0 0 18px;
 	}
 
-	.meta code
-	{
-		background: var(--panel-2);
-		border-radius: 5px;
-		padding: 1px 6px;
-		font-size: 12px;
-	}
-
 	a.dl
 	{
 		display: block;
@@ -146,6 +139,26 @@
 		letter-spacing: 0.3px;
 	}
 
+	.gate
+	{
+		border-left: 3px solid var(--lock);
+		background: var(--panel-2);
+		border-radius: 0 10px 10px 0;
+		padding: 14px 16px;
+		margin-top: 16px;
+		font-size: 14px;
+	}
+
+	.gate b
+	{
+		color: var(--lock);
+	}
+
+	.gate a
+	{
+		color: var(--lock);
+	}
+
 	h2
 	{
 		font-size: 15px;
@@ -160,7 +173,6 @@
 		margin: 0;
 		padding-left: 20px;
 		font-size: 14.5px;
-		color: var(--ink);
 	}
 
 	ol.steps li
@@ -177,43 +189,6 @@
 	{
 		color: var(--ink-dim);
 		font-size: 13px;
-	}
-
-	ul.hist
-	{
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	ul.hist li
-	{
-		border-top: 1px solid var(--line);
-		padding: 12px 0;
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		gap: 12px;
-	}
-
-	ul.hist li:first-child
-	{
-		border-top: 0;
-	}
-
-	ul.hist a
-	{
-		color: var(--accent);
-		text-decoration: none;
-		font-weight: 600;
-		font-size: 14.5px;
-	}
-
-	ul.hist span
-	{
-		color: var(--ink-dim);
-		font-size: 12.5px;
-		white-space: nowrap;
 	}
 
 	footer
@@ -264,13 +239,20 @@
 	</header>
 
 	<div class="card">
-		<span class="badge" id="badge">Derniere build</span>
+		<span class="badge">Derniere build</span>
 		<p class="ver" id="ver">Chargement...</p>
 		<p class="meta" id="meta">&nbsp;</p>
-		<a class="dl" id="dl" href="https://github.com/PolSpock/OilMVP-builds/releases/latest/download/OilMVP.apk">
+		<a class="dl" id="dl" href="https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk">
 			Telecharger l'APK
 			<small id="dlsize">toujours la plus recente</small>
 		</a>
+		<div class="gate">
+			<b>Acces reserve.</b> L'APK vit dans le depot prive : GitHub ne la sert qu'a un
+			navigateur connecte au compte. Un robot qui passe par ici recoit une page introuvable.
+			Si le lien renvoie une erreur 404, c'est que la session a expire :
+			<a href="https://github.com/login" target="_blank" rel="noopener">se connecter a GitHub</a>,
+			puis revenir ici.
+		</div>
 	</div>
 
 	<div class="card">
@@ -283,19 +265,14 @@
 		</ol>
 	</div>
 
-	<div class="card">
-		<h2>Builds precedentes</h2>
-		<ul class="hist" id="hist"><li><span>Chargement...</span></li></ul>
-	</div>
-
 	<div class="qr">
-		<img id="qr" src="qr.png" alt="QR vers cette page">
+		<img src="qr.png" alt="QR vers cette page">
 		<p class="hint">Scanne pour ouvrir cette page sur le telephone</p>
 	</div>
 
 	<footer>
-		Signe avec une cle stable, mise a jour par-dessus l'installation precedente.<br>
-		<a href="https://github.com/PolSpock/OilMVP-builds/releases">Toutes les releases</a>
+		Signee avec une cle stable, mise a jour par-dessus l'installation precedente.<br>
+		<a href="https://github.com/PolSpock/OilMVP/releases">Toutes les builds</a>
 	</footer>
 
 </div>
@@ -303,16 +280,20 @@
 <script>
 	( function ()
 	{
-		var API = "https://api.github.com/repos/PolSpock/OilMVP-builds/releases?per_page=15";
-
-		function mb ( bytes )
+		function mb ( value )
 		{
-			return ( bytes / 1048576 ).toFixed( 1 ) + " Mo";
+			return String( value ).replace( ".", "," ) + " Mo";
 		}
 
 		function when ( iso )
 		{
 			var d = new Date( iso );
+
+			if ( isNaN( d.getTime() ) )
+			{
+				return "";
+			}
+
 			var day = String( d.getDate() ).padStart( 2, "0" );
 			var mon = String( d.getMonth() + 1 ).padStart( 2, "0" );
 			var hh = String( d.getHours() ).padStart( 2, "0" );
@@ -320,19 +301,9 @@
 			return day + "/" + mon + "/" + d.getFullYear() + " a " + hh + ":" + mm;
 		}
 
-		function apk ( rel )
-		{
-			for ( var i = 0; i < rel.assets.length; i++ )
-			{
-				if ( /\.apk$/i.test( rel.assets[ i ].name ) )
-				{
-					return rel.assets[ i ];
-				}
-			}
-			return null;
-		}
-
-		fetch( API, { headers: { "Accept": "application/vnd.github+json" } } )
+		// latest.json est ecrit par la CI apres chaque build. Il ne contient QUE des metadonnees :
+		// le binaire, lui, n'est jamais servi depuis ce domaine public.
+		fetch( "latest.json?t=" + Date.now() )
 			.then( function ( r )
 			{
 				if ( !r.ok )
@@ -341,47 +312,41 @@
 				}
 				return r.json();
 			} )
-			.then( function ( list )
+			.then( function ( info )
 			{
-				list = list.filter( function ( r ) { return !r.draft && apk( r ); } );
+				document.getElementById( "ver" ).textContent = info.title || ( "Build " + info.build );
 
-				if ( list.length === 0 )
+				var bits = [];
+
+				if ( info.publishedAt )
 				{
-					document.getElementById( "ver" ).textContent = "Aucune build publiee";
-					document.getElementById( "meta" ).textContent =
-						"Lance le workflow APK sur le depot OilMVP, la premiere apparaitra ici.";
-					document.getElementById( "hist" ).innerHTML = "<li><span>Rien pour l'instant</span></li>";
-					return;
+					bits.push( when( info.publishedAt ) );
 				}
 
-				var top = list[ 0 ];
-				var asset = apk( top );
+				if ( info.sizeMb )
+				{
+					bits.push( mb( info.sizeMb ) );
+				}
 
-				document.getElementById( "ver" ).textContent = top.name || top.tag_name;
-				document.getElementById( "meta" ).innerHTML =
-					when( top.published_at ) + " &middot; " + mb( asset.size );
+				if ( info.kind )
+				{
+					bits.push( info.kind );
+				}
+
+				document.getElementById( "meta" ).textContent = bits.join( " · " );
 				document.getElementById( "dlsize" ).textContent =
-					asset.name + " &middot; " + mb( asset.size );
-				document.getElementById( "dl" ).setAttribute( "href", asset.browser_download_url );
+					"OilMVP.apk" + ( info.sizeMb ? " · " + mb( info.sizeMb ) : "" );
 
-				var html = "";
-				for ( var i = 1; i < list.length; i++ )
+				if ( info.url )
 				{
-					var a = apk( list[ i ] );
-					html += "<li><a href=\"" + a.browser_download_url + "\">" +
-						( list[ i ].name || list[ i ].tag_name ) + "</a><span>" +
-						when( list[ i ].published_at ) + "</span></li>";
+					document.getElementById( "dl" ).setAttribute( "href", info.url );
 				}
-				document.getElementById( "hist" ).innerHTML =
-					html || "<li><span>C'est la premiere</span></li>";
 			} )
 			.catch( function ()
 			{
 				document.getElementById( "ver" ).textContent = "Derniere build";
 				document.getElementById( "meta" ).textContent =
-					"Details indisponibles hors ligne, le bouton pointe toujours sur la plus recente.";
-				document.getElementById( "hist" ).innerHTML =
-					"<li><span>Historique indisponible</span></li>";
+					"Details indisponibles, le bouton pointe toujours sur la plus recente.";
 			} );
 	} )();
 </script>
