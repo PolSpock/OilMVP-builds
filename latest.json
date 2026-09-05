@@ -1,10 +1,10 @@
 {
-    "build":  16,
-    "tag":  "b16",
-    "title":  "Build 16 - Keep the bump travelling",
-    "commit":  "f21ac74",
+    "build":  17,
+    "tag":  "b17",
+    "title":  "Build 17 - Show the stars and the snap",
+    "commit":  "aa6ad2c",
     "kind":  "development",
     "sizeMb":  "56.9",
-    "publishedAt":  "2026-09-05T14:36:24Z",
+    "publishedAt":  "2026-09-05T16:10:34Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
