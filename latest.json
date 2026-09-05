@@ -1,10 +1,10 @@
 {
-    "build":  13,
-    "tag":  "b13",
-    "title":  "Build 13 - Close P19",
-    "commit":  "a51a9d2",
+    "build":  14,
+    "tag":  "b14",
+    "title":  "Build 14 - Update game UX profile",
+    "commit":  "a02bc72",
     "kind":  "development",
-    "sizeMb":  "55.7",
-    "publishedAt":  "2026-09-05T08:26:46Z",
+    "sizeMb":  "56.9",
+    "publishedAt":  "2026-09-05T11:08:41Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
