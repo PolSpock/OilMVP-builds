@@ -1,10 +1,10 @@
 {
-    "build":  12,
-    "tag":  "b12",
-    "title":  "Build 12 - Add Android icon slots / reset volume list",
-    "commit":  "1161a15",
+    "build":  13,
+    "tag":  "b13",
+    "title":  "Build 13 - Close P19",
+    "commit":  "a51a9d2",
     "kind":  "development",
     "sizeMb":  "55.7",
-    "publishedAt":  "2026-09-04T14:47:13Z",
+    "publishedAt":  "2026-09-05T08:26:46Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
