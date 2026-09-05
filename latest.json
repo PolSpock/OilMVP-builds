@@ -1,10 +1,10 @@
 {
-    "build":  18,
-    "tag":  "b18",
-    "title":  "Build 18 - Fix P21 commit list",
-    "commit":  "b78f99d",
+    "build":  19,
+    "tag":  "b19",
+    "title":  "Build 19 - Add P21b commit list",
+    "commit":  "ab538db",
     "kind":  "development",
     "sizeMb":  "57",
-    "publishedAt":  "2026-09-05T17:12:27Z",
+    "publishedAt":  "2026-09-05T20:20:46Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
