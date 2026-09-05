@@ -1,10 +1,10 @@
 {
-    "build":  15,
-    "tag":  "b15",
-    "title":  "Build 15 - Roll the money digit by digit",
-    "commit":  "f9be23d",
+    "build":  16,
+    "tag":  "b16",
+    "title":  "Build 16 - Keep the bump travelling",
+    "commit":  "f21ac74",
     "kind":  "development",
     "sizeMb":  "56.9",
-    "publishedAt":  "2026-09-05T13:51:49Z",
+    "publishedAt":  "2026-09-05T14:36:24Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
