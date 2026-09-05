@@ -1,10 +1,10 @@
 {
-    "build":  17,
-    "tag":  "b17",
-    "title":  "Build 17 - Show the stars and the snap",
-    "commit":  "aa6ad2c",
+    "build":  18,
+    "tag":  "b18",
+    "title":  "Build 18 - Fix P21 commit list",
+    "commit":  "b78f99d",
     "kind":  "development",
-    "sizeMb":  "56.9",
-    "publishedAt":  "2026-09-05T16:10:34Z",
+    "sizeMb":  "57",
+    "publishedAt":  "2026-09-05T17:12:27Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
