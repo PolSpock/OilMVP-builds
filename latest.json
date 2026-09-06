@@ -1,10 +1,10 @@
 {
-    "build":  23,
-    "tag":  "b23",
-    "title":  "Build 23 - Ship the choreography",
-    "commit":  "7258970",
+    "build":  26,
+    "tag":  "b26",
+    "title":  "Build 26 - Build the depth marks in Start so the cap is there",
+    "commit":  "58f39e6",
     "kind":  "development",
-    "sizeMb":  "106.7",
-    "publishedAt":  "2026-09-06T13:03:20Z",
+    "sizeMb":  "106.9",
+    "publishedAt":  "2026-09-06T18:08:35Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
