@@ -1,10 +1,10 @@
 {
-    "build":  29,
-    "tag":  "b29",
-    "title":  "Build 29 - Round the head, sweat the rock, slim the pipe",
-    "commit":  "92d8471",
+    "build":  30,
+    "tag":  "b30",
+    "title":  "Build 30 - Unlock the first achievements",
+    "commit":  "3ba8a26",
     "kind":  "development",
     "sizeMb":  "95.5",
-    "publishedAt":  "2026-09-06T20:31:19Z",
+    "publishedAt":  "2026-09-06T20:37:59Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
