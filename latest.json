@@ -1,10 +1,10 @@
 {
-    "build":  27,
-    "tag":  "b27",
-    "title":  "Build 27 - Drop four packages the game never opens",
-    "commit":  "1ead0ab",
+    "build":  28,
+    "tag":  "b28",
+    "title":  "Build 28 - Spare the twig and let it shout",
+    "commit":  "9d294bb",
     "kind":  "development",
-    "sizeMb":  "95.4",
-    "publishedAt":  "2026-09-06T18:34:00Z",
+    "sizeMb":  "95.5",
+    "publishedAt":  "2026-09-06T20:03:28Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
