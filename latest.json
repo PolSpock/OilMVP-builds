@@ -1,10 +1,10 @@
 {
-    "build":  20,
-    "tag":  "b20",
-    "title":  "Build 20 - Compile dev builds with IL2CPP Debug config",
-    "commit":  "deb0353",
+    "build":  21,
+    "tag":  "b21",
+    "title":  "Build 21 - Time the wings",
+    "commit":  "947c6f0",
     "kind":  "development",
-    "sizeMb":  "106.5",
-    "publishedAt":  "2026-09-05T20:38:34Z",
+    "sizeMb":  "106.7",
+    "publishedAt":  "2026-09-06T08:06:36Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
