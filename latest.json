@@ -1,10 +1,10 @@
 {
-    "build":  28,
-    "tag":  "b28",
-    "title":  "Build 28 - Spare the twig and let it shout",
-    "commit":  "9d294bb",
+    "build":  29,
+    "tag":  "b29",
+    "title":  "Build 29 - Round the head, sweat the rock, slim the pipe",
+    "commit":  "92d8471",
     "kind":  "development",
     "sizeMb":  "95.5",
-    "publishedAt":  "2026-09-06T20:03:28Z",
+    "publishedAt":  "2026-09-06T20:31:19Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
