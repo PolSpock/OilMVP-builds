@@ -1,10 +1,10 @@
 {
-    "build":  21,
-    "tag":  "b21",
-    "title":  "Build 21 - Time the wings",
-    "commit":  "947c6f0",
+    "build":  22,
+    "tag":  "b22",
+    "title":  "Build 22 - Double the beat in frenzy and let the world breathe",
+    "commit":  "dad2e94",
     "kind":  "development",
     "sizeMb":  "106.7",
-    "publishedAt":  "2026-09-06T08:06:36Z",
+    "publishedAt":  "2026-09-06T10:55:08Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
