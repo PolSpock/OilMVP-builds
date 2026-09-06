@@ -1,10 +1,10 @@
 {
-    "build":  26,
-    "tag":  "b26",
-    "title":  "Build 26 - Build the depth marks in Start so the cap is there",
-    "commit":  "58f39e6",
+    "build":  27,
+    "tag":  "b27",
+    "title":  "Build 27 - Drop four packages the game never opens",
+    "commit":  "1ead0ab",
     "kind":  "development",
-    "sizeMb":  "106.9",
-    "publishedAt":  "2026-09-06T18:08:35Z",
+    "sizeMb":  "95.4",
+    "publishedAt":  "2026-09-06T18:34:00Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
