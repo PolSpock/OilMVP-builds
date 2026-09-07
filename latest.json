@@ -1,10 +1,10 @@
 {
-    "build":  30,
-    "tag":  "b30",
-    "title":  "Build 30 - Unlock the first achievements",
-    "commit":  "3ba8a26",
+    "build":  31,
+    "tag":  "b31",
+    "title":  "Build 31 - Close the frame",
+    "commit":  "e740537",
     "kind":  "development",
-    "sizeMb":  "95.5",
-    "publishedAt":  "2026-09-06T20:37:59Z",
+    "sizeMb":  "95.6",
+    "publishedAt":  "2026-09-07T05:08:09Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
