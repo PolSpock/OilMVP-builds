@@ -1,10 +1,10 @@
 {
-    "build":  31,
-    "tag":  "b31",
-    "title":  "Build 31 - Close the frame",
-    "commit":  "e740537",
+    "build":  32,
+    "tag":  "b32",
+    "title":  "Build 32 - Choose the camera plan in the open",
+    "commit":  "6ea8499",
     "kind":  "development",
-    "sizeMb":  "95.6",
-    "publishedAt":  "2026-09-07T05:08:09Z",
+    "sizeMb":  "95.7",
+    "publishedAt":  "2026-09-07T05:46:48Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
