@@ -1,10 +1,10 @@
 {
-    "build":  38,
-    "tag":  "b38",
-    "title":  "Build 38 - new-plan-5.txt",
-    "commit":  "4b2e104",
+    "build":  39,
+    "tag":  "b39",
+    "title":  "Build 39 - Note fixed bugs in new-plan-5",
+    "commit":  "a9021c6",
     "kind":  "development",
     "sizeMb":  "95.8",
-    "publishedAt":  "2026-09-07T15:40:38Z",
+    "publishedAt":  "2026-09-07T16:30:53Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
