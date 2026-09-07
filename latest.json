@@ -1,10 +1,10 @@
 {
-    "build":  34,
-    "tag":  "b34",
-    "title":  "Build 34 - Let the camera wander when nobody asks",
-    "commit":  "3e7616c",
+    "build":  35,
+    "tag":  "b35",
+    "title":  "Build 35 - Keep the objective clear of the chips",
+    "commit":  "26cf0be",
     "kind":  "development",
     "sizeMb":  "95.7",
-    "publishedAt":  "2026-09-07T07:06:46Z",
+    "publishedAt":  "2026-09-07T12:50:09Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
