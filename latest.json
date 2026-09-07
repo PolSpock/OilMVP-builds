@@ -1,10 +1,10 @@
 {
-    "build":  32,
-    "tag":  "b32",
-    "title":  "Build 32 - Choose the camera plan in the open",
-    "commit":  "6ea8499",
+    "build":  33,
+    "tag":  "b33",
+    "title":  "Build 33 - Let the finger hold the world",
+    "commit":  "615ba2a",
     "kind":  "development",
     "sizeMb":  "95.7",
-    "publishedAt":  "2026-09-07T05:46:48Z",
+    "publishedAt":  "2026-09-07T06:26:25Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
