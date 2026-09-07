@@ -1,10 +1,10 @@
 {
-    "build":  33,
-    "tag":  "b33",
-    "title":  "Build 33 - Let the finger hold the world",
-    "commit":  "615ba2a",
+    "build":  34,
+    "tag":  "b34",
+    "title":  "Build 34 - Let the camera wander when nobody asks",
+    "commit":  "3e7616c",
     "kind":  "development",
     "sizeMb":  "95.7",
-    "publishedAt":  "2026-09-07T06:26:25Z",
+    "publishedAt":  "2026-09-07T07:06:46Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
