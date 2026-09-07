@@ -1,10 +1,10 @@
 {
-    "build":  37,
-    "tag":  "b37",
-    "title":  "Build 37 - Ship the soundtrack",
-    "commit":  "583a123",
+    "build":  38,
+    "tag":  "b38",
+    "title":  "Build 38 - new-plan-5.txt",
+    "commit":  "4b2e104",
     "kind":  "development",
     "sizeMb":  "95.8",
-    "publishedAt":  "2026-09-07T15:27:22Z",
+    "publishedAt":  "2026-09-07T15:40:38Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
