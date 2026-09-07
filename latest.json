@@ -1,10 +1,10 @@
 {
-    "build":  35,
-    "tag":  "b35",
-    "title":  "Build 35 - Keep the objective clear of the chips",
-    "commit":  "26cf0be",
+    "build":  36,
+    "tag":  "b36",
+    "title":  "Build 36 - Judge the whole HUD, not one panel at a time",
+    "commit":  "37ebe25",
     "kind":  "development",
     "sizeMb":  "95.7",
-    "publishedAt":  "2026-09-07T12:50:09Z",
+    "publishedAt":  "2026-09-07T13:09:26Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
