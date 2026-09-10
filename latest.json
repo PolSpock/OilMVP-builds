@@ -1,10 +1,10 @@
 {
-    "build":  43,
-    "tag":  "b43",
-    "title":  "Build 43 - Speak English in the last three places",
-    "commit":  "0a6916e",
+    "build":  44,
+    "tag":  "b44",
+    "title":  "Build 44 - Mark the two FTUE nudges in new-plan-7.txt",
+    "commit":  "68f1f80",
     "kind":  "development",
     "sizeMb":  "53",
-    "publishedAt":  "2026-09-10T14:06:14Z",
+    "publishedAt":  "2026-09-10T20:43:04Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
