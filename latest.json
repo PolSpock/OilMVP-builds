@@ -1,10 +1,10 @@
 {
-    "build":  41,
-    "tag":  "b41",
-    "title":  "Build 41 - Offer a boost",
-    "commit":  "de5f208",
+    "build":  42,
+    "tag":  "b42",
+    "title":  "Build 42 - Ship the ad foundation",
+    "commit":  "da84532",
     "kind":  "development",
     "sizeMb":  "53",
-    "publishedAt":  "2026-09-10T09:04:56Z",
+    "publishedAt":  "2026-09-10T10:54:08Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
