@@ -1,10 +1,10 @@
 {
-    "build":  40,
-    "tag":  "b40",
-    "title":  "Build 40 - Ship the first minute again",
-    "commit":  "31a5970",
+    "build":  41,
+    "tag":  "b41",
+    "title":  "Build 41 - Offer a boost",
+    "commit":  "de5f208",
     "kind":  "development",
-    "sizeMb":  "95.9",
-    "publishedAt":  "2026-09-08T18:26:35Z",
+    "sizeMb":  "53",
+    "publishedAt":  "2026-09-10T09:04:56Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
