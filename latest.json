@@ -1,10 +1,10 @@
 {
-    "build":  42,
-    "tag":  "b42",
-    "title":  "Build 42 - Ship the ad foundation",
-    "commit":  "da84532",
+    "build":  43,
+    "tag":  "b43",
+    "title":  "Build 43 - Speak English in the last three places",
+    "commit":  "0a6916e",
     "kind":  "development",
     "sizeMb":  "53",
-    "publishedAt":  "2026-09-10T10:54:08Z",
+    "publishedAt":  "2026-09-10T14:06:14Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
