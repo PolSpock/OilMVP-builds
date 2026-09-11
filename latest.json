@@ -1,10 +1,10 @@
 {
-    "build":  50,
-    "tag":  "b50",
-    "title":  "Build 50 - Scope iOS code signing to the app target, not UnityFramework",
-    "commit":  "71470dd",
+    "build":  51,
+    "tag":  "b51",
+    "title":  "Build 51 - Set team on UnityFramework signing and disable log formatter for diagnosis",
+    "commit":  "9b56662",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T14:34:24Z",
+    "publishedAt":  "2026-09-11T14:41:25Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
