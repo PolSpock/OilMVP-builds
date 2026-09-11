@@ -1,10 +1,10 @@
 {
-    "build":  46,
-    "tag":  "b46",
-    "title":  "Build 46 - Ship the tank reminder",
-    "commit":  "c273ff5",
+    "build":  47,
+    "tag":  "b47",
+    "title":  "Build 47 - Fix the P45 commit hashes in the plan index",
+    "commit":  "705f7c7",
     "kind":  "development",
-    "sizeMb":  "53.1",
-    "publishedAt":  "2026-09-11T08:14:34Z",
+    "sizeMb":  "53.2",
+    "publishedAt":  "2026-09-11T12:28:41Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
