@@ -1,10 +1,10 @@
 {
-    "build":  57,
-    "tag":  "b57",
-    "title":  "Build 57 - Let the claim banner receive the finger",
-    "commit":  "517ff4a",
+    "build":  58,
+    "tag":  "b58",
+    "title":  "Build 58 - Stop the boost offer flicker, show it while it runs",
+    "commit":  "03f773d",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T18:07:31Z",
+    "publishedAt":  "2026-09-11T23:02:25Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
