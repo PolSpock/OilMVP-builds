@@ -1,10 +1,10 @@
 {
-    "build":  53,
-    "tag":  "b53",
-    "title":  "Build 53 - Restore exec bit on all top-level Unity export tools, not just .sh",
-    "commit":  "6c86edd",
+    "build":  54,
+    "tag":  "b54",
+    "title":  "Build 54 - Lift the claim banner clear of the shop button",
+    "commit":  "1b8a069",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T15:21:04Z",
+    "publishedAt":  "2026-09-11T15:27:31Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
