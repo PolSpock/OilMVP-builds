@@ -1,10 +1,10 @@
 {
-    "build":  51,
-    "tag":  "b51",
-    "title":  "Build 51 - Set team on UnityFramework signing and disable log formatter for diagnosis",
-    "commit":  "9b56662",
+    "build":  52,
+    "tag":  "b52",
+    "title":  "Build 52 - Restore exec bit on Unity build phase scripts lost in artifact transfer",
+    "commit":  "15a749e",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T14:41:25Z",
+    "publishedAt":  "2026-09-11T15:00:17Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
