@@ -1,10 +1,10 @@
 {
-    "build":  54,
-    "tag":  "b54",
-    "title":  "Build 54 - Lift the claim banner clear of the shop button",
-    "commit":  "1b8a069",
+    "build":  55,
+    "tag":  "b55",
+    "title":  "Build 55 - Use a dedicated unlocked CI keychain to avoid interactive codesign prompts",
+    "commit":  "52e703d",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T15:27:31Z",
+    "publishedAt":  "2026-09-11T15:55:02Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
