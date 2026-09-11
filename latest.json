@@ -1,10 +1,10 @@
 {
-    "build":  55,
-    "tag":  "b55",
-    "title":  "Build 55 - Use a dedicated unlocked CI keychain to avoid interactive codesign prompts",
-    "commit":  "52e703d",
+    "build":  56,
+    "tag":  "b56",
+    "title":  "Build 56 - Build TestFlight uploads with Xcode 26 (macos-15), Apple now requires the iOS 26 SDK",
+    "commit":  "d1e0490",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T15:55:02Z",
+    "publishedAt":  "2026-09-11T16:09:34Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
