@@ -1,10 +1,10 @@
 {
-    "build":  45,
-    "tag":  "b45",
-    "title":  "Build 45 - Import the icon master as a single sprite",
-    "commit":  "92c23d3",
+    "build":  46,
+    "tag":  "b46",
+    "title":  "Build 46 - Ship the tank reminder",
+    "commit":  "c273ff5",
     "kind":  "development",
-    "sizeMb":  "53",
-    "publishedAt":  "2026-09-11T05:44:23Z",
+    "sizeMb":  "53.1",
+    "publishedAt":  "2026-09-11T08:14:34Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
