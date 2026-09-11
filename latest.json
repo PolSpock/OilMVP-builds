@@ -1,10 +1,10 @@
 {
-    "build":  47,
-    "tag":  "b47",
-    "title":  "Build 47 - Fix the P45 commit hashes in the plan index",
-    "commit":  "705f7c7",
+    "build":  48,
+    "tag":  "b48",
+    "title":  "Build 48 - Ship the honest offer",
+    "commit":  "77f4a97",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T12:28:41Z",
+    "publishedAt":  "2026-09-11T14:06:20Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
