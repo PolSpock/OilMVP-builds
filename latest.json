@@ -1,10 +1,10 @@
 {
-    "build":  48,
-    "tag":  "b48",
-    "title":  "Build 48 - Ship the honest offer",
-    "commit":  "77f4a97",
+    "build":  49,
+    "tag":  "b49",
+    "title":  "Build 49 - Add iOS CI pipeline (Xcode export, TestFlight, cert generation)",
+    "commit":  "f2d03e8",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T14:06:20Z",
+    "publishedAt":  "2026-09-11T14:23:08Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
