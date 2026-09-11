@@ -1,10 +1,10 @@
 {
-    "build":  52,
-    "tag":  "b52",
-    "title":  "Build 52 - Restore exec bit on Unity build phase scripts lost in artifact transfer",
-    "commit":  "15a749e",
+    "build":  53,
+    "tag":  "b53",
+    "title":  "Build 53 - Restore exec bit on all top-level Unity export tools, not just .sh",
+    "commit":  "6c86edd",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T15:00:17Z",
+    "publishedAt":  "2026-09-11T15:21:04Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
