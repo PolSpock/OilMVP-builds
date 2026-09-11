@@ -1,10 +1,10 @@
 {
-    "build":  56,
-    "tag":  "b56",
-    "title":  "Build 56 - Build TestFlight uploads with Xcode 26 (macos-15), Apple now requires the iOS 26 SDK",
-    "commit":  "d1e0490",
+    "build":  57,
+    "tag":  "b57",
+    "title":  "Build 57 - Let the claim banner receive the finger",
+    "commit":  "517ff4a",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T16:09:34Z",
+    "publishedAt":  "2026-09-11T18:07:31Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
