@@ -1,10 +1,10 @@
 {
-    "build":  58,
-    "tag":  "b58",
-    "title":  "Build 58 - Stop the boost offer flicker, show it while it runs",
-    "commit":  "03f773d",
+    "build":  59,
+    "tag":  "b59",
+    "title":  "Build 59 - Add Google Play CI, internal testing track",
+    "commit":  "bdc0ce8",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-11T23:02:25Z",
+    "publishedAt":  "2026-09-12T12:37:43Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
