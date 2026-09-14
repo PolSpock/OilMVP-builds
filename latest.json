@@ -1,10 +1,10 @@
 {
-    "build":  63,
-    "tag":  "b63",
-    "title":  "Build 63 - Add Spanish",
-    "commit":  "38aefab",
+    "build":  64,
+    "tag":  "b64",
+    "title":  "Build 64 - Add German",
+    "commit":  "b155986",
     "kind":  "development",
     "sizeMb":  "54.6",
-    "publishedAt":  "2026-09-14T08:33:25Z",
+    "publishedAt":  "2026-09-14T09:22:10Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
