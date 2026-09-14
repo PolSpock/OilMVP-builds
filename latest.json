@@ -1,10 +1,10 @@
 {
-    "build":  62,
-    "tag":  "b62",
-    "title":  "Build 62 - Add Japanese + Zen Maru Gothic fallback font",
-    "commit":  "dbf26ca",
+    "build":  63,
+    "tag":  "b63",
+    "title":  "Build 63 - Add Spanish",
+    "commit":  "38aefab",
     "kind":  "development",
-    "sizeMb":  "54.5",
-    "publishedAt":  "2026-09-14T08:07:36Z",
+    "sizeMb":  "54.6",
+    "publishedAt":  "2026-09-14T08:33:25Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
