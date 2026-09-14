@@ -1,10 +1,10 @@
 {
-    "build":  64,
-    "tag":  "b64",
-    "title":  "Build 64 - Add German",
-    "commit":  "b155986",
+    "build":  65,
+    "tag":  "b65",
+    "title":  "Build 65 - Mission baseline + read beat / coin salvo on claim",
+    "commit":  "dc77c5a",
     "kind":  "development",
     "sizeMb":  "54.6",
-    "publishedAt":  "2026-09-14T09:22:10Z",
+    "publishedAt":  "2026-09-14T12:00:20Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
