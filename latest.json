@@ -1,10 +1,10 @@
 {
-    "build":  60,
-    "tag":  "b60",
-    "title":  "Build 60 - Logo SVG follows the tilted drop, note P48",
-    "commit":  "69d4ac8",
+    "build":  62,
+    "tag":  "b62",
+    "title":  "Build 62 - Add Japanese + Zen Maru Gothic fallback font",
+    "commit":  "dbf26ca",
     "kind":  "development",
-    "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-14T06:44:19Z",
+    "sizeMb":  "54.5",
+    "publishedAt":  "2026-09-14T08:07:36Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
