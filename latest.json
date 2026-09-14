@@ -1,10 +1,10 @@
 {
-    "build":  65,
-    "tag":  "b65",
-    "title":  "Build 65 - Mission baseline + read beat / coin salvo on claim",
-    "commit":  "dc77c5a",
+    "build":  66,
+    "tag":  "b66",
+    "title":  "Build 66 - Add coin icon to claim button, fix x2 ring overlap, drop false first-pocket claim",
+    "commit":  "9b042fb",
     "kind":  "development",
     "sizeMb":  "54.6",
-    "publishedAt":  "2026-09-14T12:00:20Z",
+    "publishedAt":  "2026-09-14T12:44:03Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
