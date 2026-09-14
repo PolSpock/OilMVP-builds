@@ -1,10 +1,10 @@
 {
-    "build":  59,
-    "tag":  "b59",
-    "title":  "Build 59 - Add Google Play CI, internal testing track",
-    "commit":  "bdc0ce8",
+    "build":  60,
+    "tag":  "b60",
+    "title":  "Build 60 - Logo SVG follows the tilted drop, note P48",
+    "commit":  "69d4ac8",
     "kind":  "development",
     "sizeMb":  "53.2",
-    "publishedAt":  "2026-09-12T12:37:43Z",
+    "publishedAt":  "2026-09-14T06:44:19Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
