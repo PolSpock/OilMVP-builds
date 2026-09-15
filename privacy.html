@@ -6,7 +6,7 @@
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#12100d">
 <meta name="robots" content="noarchive">
-<title>Oblob - politique de confidentialite</title>
+<title>Oblob - politique de confidentialite / privacy policy</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>&#9968;</text></svg>">
 <style>
 	:root
@@ -212,61 +212,141 @@
 	<header>
 		<div class="logo">&#9968;</div>
 		<h1>Ce que Oblob sait de vous</h1>
-		<p class="sub">Politique de confidentialite</p>
+		<p class="sub">Politique de confidentialite &middot; <a href="#en">English below</a></p>
 	</header>
 
 	<div class="meta-row">
 		<span>Appli <b>Oblob</b></span>
 		<span>Package <b>com.ppeb.oblob</b></span>
-		<span>En vigueur <b>2026-09-14</b></span>
+		<span>Editeur <b>PPEB</b></span>
+		<span>En vigueur <b>2026-09-15</b> (version 2)</span>
 		<span>Contact <b><a href="mailto:ppeb.dev@gmail.com">ppeb.dev@gmail.com</a></b></span>
 	</div>
 
 	<div class="card headline">
-		<div class="dot">0</div>
-		<p><b>Rien.</b> Oblob n'a pas de compte joueur, pas de SDK publicitaire, pas de SDK analytique, et ne partage aucune donnee avec un tiers. Votre partie reste sur votre telephone.</p>
+		<div class="dot">1</div>
+		<p><b>Un seul tiers : la regie publicitaire.</b> Oblob n'a pas de compte joueur, pas d'achat integre et pas d'outil d'analyse d'audience. Votre partie reste sur votre telephone. Le jeu est finance par des publicites servies par Google AdMob, et c'est le seul traitement de donnees qui quitte votre appareil.</p>
 	</div>
 
 	<div class="card">
-		<h2>Donnees collectees</h2>
-		<p>Oblob ne collecte aucune donnee personnelle identifiable : ni nom, ni email, ni localisation, ni identifiant publicitaire. Le jeu ne demande aucune permission d'acces a vos contacts, photos, micro ou camera.</p>
-		<p>La seule donnee produite est votre sauvegarde de partie (puits possedes, production, progression), ecrite localement dans le stockage prive de l'application sur votre appareil, et qui n'en sort jamais.</p>
+		<h2>Ce que le jeu garde sur votre appareil, et qui n'en sort pas</h2>
+		<p><b>La sauvegarde de partie</b> (tuyaux, ameliorations, creatures sauvees, progression), dans le stockage prive de l'application.</p>
+		<p><b>Un journal de jeu local</b> (fichier <code>telemetry.jsonl</code>) : des evenements de partie horodates -- une poche videe, une expedition, une video regardee, une publicite chargee ou non -- sans identifiant, sans localisation, sans donnee de contact. Il ne quitte jamais votre appareil ; il sert a comprendre une partie que vous nous partageriez vous-meme.</p>
+		<p><b>Des preferences</b> : son, langue, rappels, et le fait d'avoir deja repondu au consentement.</p>
 	</div>
 
 	<div class="card">
-		<h2>Etat actuel des integrations tierces</h2>
-		<ul class="status">
-			<li><span class="tag">Absent</span> Compte joueur ou identifiant de connexion</li>
-			<li><span class="tag">Absent</span> SDK publicitaire (video recompensee, interstitiel)</li>
-			<li><span class="tag">Absent</span> SDK d'analytique ou de mesure d'audience</li>
-			<li><span class="tag">Absent</span> Achat integre, abonnement ou monnaie reelle</li>
-			<li><span class="tag">Absent</span> Partage de donnees avec un tiers</li>
-		</ul>
-		<p style="margin-top: 12px;">Le modele prevu a terme est exclusivement publicitaire (rewarded video, interstitiels), sans achat integre ni hasard payant. Cette page sera mise a jour avant la sortie de toute version integrant un SDK, avec le nom du reseau et les donnees qu'il traite.</p>
+		<h2>Ce que la regie publicitaire collecte</h2>
+		<p>Oblob affiche des <b>videos recompensees facultatives</b> (vous choisissez de les regarder pour doubler un gain) et, apres une expedition, un <b>ecran publicitaire court</b>. Ces publicites sont servies par <b>Google AdMob</b> (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, Etats-Unis).</p>
+		<p>Pour les servir, le SDK AdMob peut traiter : l'<b>identifiant publicitaire</b> de votre appareil (Android : identifiant publicitaire Google ; iOS : IDFA, seulement si vous l'autorisez), votre <b>adresse IP</b> et une localisation approximative qui en decoule, des <b>informations sur l'appareil</b> (modele, systeme, langue, version de l'application), et vos <b>interactions avec les annonces</b> (affichage, clic, video regardee jusqu'au bout).</p>
+		<p><b>Finalites</b> : diffuser les annonces, limiter leur repetition, mesurer les affichages et les recompenses, lutter contre la fraude. Avec votre consentement (voir ci-dessous), les annonces peuvent etre personnalisees ; sans lui, elles sont contextuelles.</p>
+		<p>Google decrit son traitement dans sa <a href="https://policies.google.com/privacy">politique de confidentialite</a> et sur la page <a href="https://policies.google.com/technologies/partner-sites">Comment Google utilise les informations provenant de sites ou d'applications qui utilisent ses services</a>.</p>
 	</div>
 
 	<div class="card">
-		<h2>Journaux techniques</h2>
-		<p>En cas de plantage, votre appareil peut transmettre un rapport standard a Google Play via les services Google Play eux-memes, independamment d'Oblob. Le jeu n'ex&eacute;cute aucune journalisation propre au-dela de sa console de developpement, desactivee dans la version publiee.</p>
-	</div>
-
-	<div class="card">
-		<h2>Enfants</h2>
-		<p>Oblob n'est pas concu specifiquement pour les enfants et ne collecte, sciemment ou non, aucune donnee aupres d'un mineur : il n'existe aucun mecanisme de collecte dans le jeu, quel que soit l'age du joueur.</p>
+		<h2>Votre consentement, et comment changer d'avis</h2>
+		<p>Dans l'Espace economique europeen, au Royaume-Uni et en Suisse, un <b>formulaire de consentement</b> (Google User Messaging Platform) s'affiche au premier lancement, avant toute publicite. <b>Refuser ne change rien au jeu</b> : les memes videos facultatives restent proposees, en version non personnalisee.</p>
+		<p>Tant que la loi de votre territoire l'exige, une <b>puce "Confidentialite"</b> (un bouclier, en haut de l'ecran de jeu, a cote du bouton du son) rouvre ce formulaire a tout moment.</p>
+		<p>Sur iOS, la demande d'autorisation de suivi (App Tracking Transparency) n'est presentee que si elle est necessaire ; sans autorisation, les annonces ne sont pas personnalisees.</p>
 	</div>
 
 	<div class="card">
 		<h2>Vos droits</h2>
-		<p>Aucune donnee n'etant collectee ni conservee hors de votre appareil, il n'existe rien a consulter, corriger ou supprimer de notre cote. Desinstaller le jeu ou effacer les donnees de l'application dans les parametres Android efface l'integralite de ce que le jeu sait de votre partie.</p>
+		<p>Vous pouvez <b>reinitialiser ou supprimer l'identifiant publicitaire</b> de votre appareil dans ses reglages (Android : Parametres &gt; Google &gt; Annonces ; iOS : Reglages &gt; Confidentialite et securite &gt; Suivi). Desinstaller le jeu, ou effacer les donnees de l'application, supprime tout ce qu'il garde sur votre appareil.</p>
+		<p>Pour toute question, demande d'acces ou de suppression concernant les donnees traitees par la regie, ecrivez a <a href="mailto:ppeb.dev@gmail.com">ppeb.dev@gmail.com</a> ; les demandes qui relevent de Google lui sont transmises ou renvoyees vers ses propres outils.</p>
+	</div>
+
+	<div class="card">
+		<h2>Enfants</h2>
+		<p>Oblob n'est <b>pas destine aux moins de 13 ans</b> et ne demande aucune donnee personnelle. Le contenu des annonces est limite au niveau "tout public" (G).</p>
+	</div>
+
+	<div class="card">
+		<h2>Ce qui n'existe pas dans Oblob</h2>
+		<ul class="status">
+			<li><span class="tag">Absent</span> Compte joueur ou identifiant de connexion</li>
+			<li><span class="tag">Absent</span> Achat integre, abonnement ou monnaie reelle</li>
+			<li><span class="tag">Absent</span> SDK d'analytique ou de mesure d'audience</li>
+			<li><span class="tag">Absent</span> Partage de donnees avec un tiers autre que la regie</li>
+			<li><span class="tag">Absent</span> Acces aux contacts, photos, micro, camera, position</li>
+		</ul>
 	</div>
 
 	<div class="card">
 		<h2>Modifications de cette politique</h2>
-		<p>Cette page est mise a jour chaque fois que le traitement de donnees d'Oblob change reellement, en premier lieu a l'integration d'un reseau publicitaire. La date "en vigueur" en haut de page refl&egrave;te toujours la version courante.</p>
+		<p>Cette page change chaque fois que le traitement de donnees d'Oblob change reellement. La date "en vigueur" en haut de page reflete toujours la version courante. Version 1 (2026-09-14) : aucune donnee ne quittait l'appareil. Version 2 (2026-09-15) : integration de Google AdMob.</p>
+	</div>
+
+	<header id="en" style="margin-top: 44px;">
+		<div class="logo">&#9968;</div>
+		<h1>What Oblob knows about you</h1>
+		<p class="sub">Privacy policy</p>
+	</header>
+
+	<div class="meta-row">
+		<span>App <b>Oblob</b></span>
+		<span>Package <b>com.ppeb.oblob</b></span>
+		<span>Publisher <b>PPEB</b></span>
+		<span>Effective <b>2026-09-15</b> (version 2)</span>
+		<span>Contact <b><a href="mailto:ppeb.dev@gmail.com">ppeb.dev@gmail.com</a></b></span>
+	</div>
+
+	<div class="card headline">
+		<div class="dot">1</div>
+		<p><b>One third party: the ad network.</b> Oblob has no player account, no in-app purchase and no analytics tool. Your game stays on your phone. The game is funded by ads served by Google AdMob, and that is the only data processing that leaves your device.</p>
+	</div>
+
+	<div class="card">
+		<h2>What the game keeps on your device, and never sends</h2>
+		<p><b>Your save game</b> (pipes, upgrades, rescued creatures, progress), in the app's private storage.</p>
+		<p><b>A local game log</b> (<code>telemetry.jsonl</code>): time-stamped game events -- a pocket drained, an expedition, a video watched, an ad loaded or not -- with no identifier, no location, no contact data. It never leaves your device; it exists to understand a game you would choose to share with us yourself.</p>
+		<p><b>Preferences</b>: sound, language, reminders, and whether you have already answered the consent form.</p>
+	</div>
+
+	<div class="card">
+		<h2>What the ad network collects</h2>
+		<p>Oblob shows <b>optional rewarded videos</b> (you choose to watch one to double a reward) and, after an expedition, a <b>short ad screen</b>. These ads are served by <b>Google AdMob</b> (Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA).</p>
+		<p>To serve them, the AdMob SDK may process: your device's <b>advertising identifier</b> (Android: Google advertising ID; iOS: IDFA, only if you allow it), your <b>IP address</b> and the coarse location derived from it, <b>device information</b> (model, OS, language, app version), and your <b>interactions with the ads</b> (impression, click, video completed).</p>
+		<p><b>Purposes</b>: serving ads, frequency capping, measuring impressions and rewards, fraud prevention. With your consent (see below) ads may be personalized; without it they are contextual.</p>
+		<p>Google describes its processing in its <a href="https://policies.google.com/privacy">privacy policy</a> and on <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use our services</a>.</p>
+	</div>
+
+	<div class="card">
+		<h2>Your consent, and how to change your mind</h2>
+		<p>In the European Economic Area, the United Kingdom and Switzerland, a <b>consent form</b> (Google User Messaging Platform) is shown at first launch, before any ad. <b>Declining changes nothing in the game</b>: the same optional videos are offered, non-personalized.</p>
+		<p>As long as the law of your territory requires it, a <b>"Privacy" chip</b> (a shield at the top of the game screen, next to the sound button) reopens that form at any time.</p>
+		<p>On iOS, the App Tracking Transparency prompt is only presented when required; without permission, ads are not personalized.</p>
+	</div>
+
+	<div class="card">
+		<h2>Your rights</h2>
+		<p>You can <b>reset or delete your device's advertising identifier</b> in its settings (Android: Settings &gt; Google &gt; Ads; iOS: Settings &gt; Privacy &amp; Security &gt; Tracking). Uninstalling the game, or clearing the app's data, deletes everything it keeps on your device.</p>
+		<p>For any question, access or deletion request about data processed by the ad network, write to <a href="mailto:ppeb.dev@gmail.com">ppeb.dev@gmail.com</a>; requests that belong to Google are forwarded to it or pointed to its own tools.</p>
+	</div>
+
+	<div class="card">
+		<h2>Children</h2>
+		<p>Oblob is <b>not intended for children under 13</b> and asks for no personal data. Ad content is limited to the "general audiences" rating (G).</p>
+	</div>
+
+	<div class="card">
+		<h2>What does not exist in Oblob</h2>
+		<ul class="status">
+			<li><span class="tag">None</span> Player account or login identifier</li>
+			<li><span class="tag">None</span> In-app purchase, subscription or real currency</li>
+			<li><span class="tag">None</span> Analytics or audience measurement SDK</li>
+			<li><span class="tag">None</span> Data sharing with any third party other than the ad network</li>
+			<li><span class="tag">None</span> Access to contacts, photos, microphone, camera, location</li>
+		</ul>
+	</div>
+
+	<div class="card">
+		<h2>Changes to this policy</h2>
+		<p>This page changes whenever Oblob's data processing really changes. The "effective" date at the top always reflects the current version. Version 1 (2026-09-14): no data left the device. Version 2 (2026-09-15): Google AdMob integrated.</p>
 	</div>
 
 	<footer>
-		Oblob &middot; <code>com.ppeb.oblob</code> &middot; <a href="mailto:ppeb.dev@gmail.com">ppeb.dev@gmail.com</a>
+		Oblob &middot; PPEB &middot; <code>com.ppeb.oblob</code> &middot; <a href="mailto:ppeb.dev@gmail.com">ppeb.dev@gmail.com</a> &middot; <a href="https://polspock.github.io/">polspock.github.io</a>
 	</footer>
 
 </div>
