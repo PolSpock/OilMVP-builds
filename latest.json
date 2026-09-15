@@ -1,10 +1,10 @@
 {
-    "build":  69,
-    "tag":  "b69",
-    "title":  "Build 69 - Audit both stores from a workflow",
-    "commit":  "b98bc1a",
+    "build":  73,
+    "tag":  "b73",
+    "title":  "Build 73 - Register the Oblob app id before match",
+    "commit":  "ddcac68",
     "kind":  "development",
     "sizeMb":  "60",
-    "publishedAt":  "2026-09-15T17:38:03Z",
+    "publishedAt":  "2026-09-15T17:45:13Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
