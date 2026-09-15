@@ -1,10 +1,10 @@
 {
-    "build":  73,
-    "tag":  "b73",
-    "title":  "Build 73 - Register the Oblob app id before match",
-    "commit":  "ddcac68",
+    "build":  74,
+    "tag":  "b74",
+    "title":  "Build 74 - Ship both store listings as code",
+    "commit":  "0f1497c",
     "kind":  "development",
     "sizeMb":  "60",
-    "publishedAt":  "2026-09-15T17:45:13Z",
+    "publishedAt":  "2026-09-15T18:00:51Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
