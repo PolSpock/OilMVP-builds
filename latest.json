@@ -1,10 +1,10 @@
 {
-    "build":  77,
-    "tag":  "b77",
-    "title":  "Build 77 - Write the release runbook",
-    "commit":  "017d295",
+    "build":  78,
+    "tag":  "b78",
+    "title":  "Build 78 - Add version number to splash",
+    "commit":  "abfec8f",
     "kind":  "development",
     "sizeMb":  "60",
-    "publishedAt":  "2026-09-15T18:33:24Z",
+    "publishedAt":  "2026-09-15T20:17:58Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
