@@ -1,10 +1,10 @@
 {
-    "build":  75,
-    "tag":  "b75",
-    "title":  "Build 75 - Add the developer site and the privacy policy v2",
-    "commit":  "863744d",
+    "build":  77,
+    "tag":  "b77",
+    "title":  "Build 77 - Write the release runbook",
+    "commit":  "017d295",
     "kind":  "development",
     "sizeMb":  "60",
-    "publishedAt":  "2026-09-15T18:13:44Z",
+    "publishedAt":  "2026-09-15T18:33:24Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
