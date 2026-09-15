@@ -1,10 +1,10 @@
 {
-    "build":  66,
-    "tag":  "b66",
-    "title":  "Build 66 - Add coin icon to claim button, fix x2 ring overlap, drop false first-pocket claim",
-    "commit":  "9b042fb",
+    "build":  67,
+    "tag":  "b67",
+    "title":  "Build 67 - Add P49 plan and README entry",
+    "commit":  "37ea427",
     "kind":  "development",
     "sizeMb":  "54.6",
-    "publishedAt":  "2026-09-14T12:44:03Z",
+    "publishedAt":  "2026-09-15T05:24:30Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
