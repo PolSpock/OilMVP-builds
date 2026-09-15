@@ -1,10 +1,10 @@
 {
-    "build":  67,
-    "tag":  "b67",
-    "title":  "Build 67 - Add P49 plan and README entry",
-    "commit":  "37ea427",
+    "build":  68,
+    "tag":  "b68",
+    "title":  "Build 68 - Measure the ad SDK footprint",
+    "commit":  "5e112d3",
     "kind":  "development",
-    "sizeMb":  "54.6",
-    "publishedAt":  "2026-09-15T05:24:30Z",
+    "sizeMb":  "60",
+    "publishedAt":  "2026-09-15T17:19:00Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
