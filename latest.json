@@ -1,10 +1,10 @@
 {
-    "build":  78,
-    "tag":  "b78",
-    "title":  "Build 78 - Add version number to splash",
-    "commit":  "abfec8f",
+    "build":  79,
+    "tag":  "b79",
+    "title":  "Build 79 - Squeeze the pocket on pump / spurt in the pipe + press voice",
+    "commit":  "d82c3cc",
     "kind":  "development",
     "sizeMb":  "60",
-    "publishedAt":  "2026-09-15T20:17:58Z",
+    "publishedAt":  "2026-09-16T05:35:24Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
