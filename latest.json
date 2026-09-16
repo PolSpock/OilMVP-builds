@@ -1,10 +1,10 @@
 {
-    "build":  79,
-    "tag":  "b79",
-    "title":  "Build 79 - Squeeze the pocket on pump / spurt in the pipe + press voice",
-    "commit":  "d82c3cc",
+    "build":  80,
+    "tag":  "b80",
+    "title":  "Build 80 - Fix App Store categories (same twice)",
+    "commit":  "5f8ebec",
     "kind":  "development",
-    "sizeMb":  "60",
-    "publishedAt":  "2026-09-16T05:35:24Z",
+    "sizeMb":  "60.1",
+    "publishedAt":  "2026-09-16T08:46:26Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
