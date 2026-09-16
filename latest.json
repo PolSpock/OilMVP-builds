@@ -1,10 +1,10 @@
 {
-    "build":  81,
-    "tag":  "b81",
-    "title":  "Build 81 - Add App Store review notes",
-    "commit":  "90fcc5f",
+    "build":  82,
+    "tag":  "b82",
+    "title":  "Build 82 - Note the store declarations of the day",
+    "commit":  "2fc54fa",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-09-16T09:01:56Z",
+    "publishedAt":  "2026-09-16T09:43:20Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
