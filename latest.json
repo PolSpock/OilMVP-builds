@@ -1,10 +1,10 @@
 {
-    "build":  82,
-    "tag":  "b82",
-    "title":  "Build 82 - Note the store declarations of the day",
-    "commit":  "2fc54fa",
+    "build":  83,
+    "tag":  "b83",
+    "title":  "Build 83 - Add Pixel 6 to testDeviceIds",
+    "commit":  "acf2ec1",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-09-16T09:43:20Z",
+    "publishedAt":  "2026-09-21T14:28:31Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
