@@ -1,10 +1,10 @@
 {
-    "build":  85,
-    "tag":  "b85",
-    "title":  "Build 85 - Hide boost chip under the shop drawer",
-    "commit":  "375edc1",
+    "build":  86,
+    "tag":  "b86",
+    "title":  "Build 86 - Ship the Xcode project as one archive",
+    "commit":  "79ae3ec",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-09-21T15:20:48Z",
+    "publishedAt":  "2026-09-28T15:17:25Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
