@@ -1,10 +1,10 @@
 {
-    "build":  86,
-    "tag":  "b86",
-    "title":  "Build 86 - Ship the Xcode project as one archive",
-    "commit":  "79ae3ec",
+    "build":  87,
+    "tag":  "b87",
+    "title":  "Build 87 - Log the first review submission",
+    "commit":  "849afbb",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-09-28T15:17:25Z",
+    "publishedAt":  "2026-09-28T16:10:49Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
