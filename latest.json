@@ -1,10 +1,10 @@
 {
-    "build":  87,
-    "tag":  "b87",
-    "title":  "Build 87 - Log the first review submission",
-    "commit":  "849afbb",
+    "build":  88,
+    "tag":  "b88",
+    "title":  "Build 88 - Cache the pods and sweep stale Xcode archives",
+    "commit":  "1f58316",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-09-28T16:10:49Z",
+    "publishedAt":  "2026-10-01T06:45:28Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
