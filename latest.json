@@ -1,10 +1,10 @@
 {
-    "build":  91,
-    "tag":  "b91",
-    "title":  "Build 91 - Sweep the archives from PowerShell",
-    "commit":  "df9b27a",
+    "build":  92,
+    "tag":  "b92",
+    "title":  "Build 92 - Point CocoaPods at the CDN",
+    "commit":  "6c5241c",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-10-01T07:05:24Z",
+    "publishedAt":  "2026-10-01T07:22:53Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
