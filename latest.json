@@ -1,10 +1,10 @@
 {
-    "build":  90,
-    "tag":  "b90",
-    "title":  "Build 90 - Keep pushes from cancelling a pending TestFlight run",
-    "commit":  "6e0a6aa",
+    "build":  91,
+    "tag":  "b91",
+    "title":  "Build 91 - Sweep the archives from PowerShell",
+    "commit":  "df9b27a",
     "kind":  "development",
     "sizeMb":  "60.1",
-    "publishedAt":  "2026-10-01T06:58:57Z",
+    "publishedAt":  "2026-10-01T07:05:24Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
