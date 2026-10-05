@@ -1,10 +1,10 @@
 {
-    "build":  92,
-    "tag":  "b92",
-    "title":  "Build 92 - Point CocoaPods at the CDN",
-    "commit":  "6c5241c",
+    "build":  93,
+    "tag":  "b93",
+    "title":  "Build 93 - Point the plans README at ui-audit.js",
+    "commit":  "88f5e62",
     "kind":  "development",
-    "sizeMb":  "60.1",
-    "publishedAt":  "2026-10-01T07:22:53Z",
+    "sizeMb":  "64.3",
+    "publishedAt":  "2026-10-05T07:16:40Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
