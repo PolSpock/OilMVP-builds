@@ -1,10 +1,10 @@
 {
-    "build":  96,
-    "tag":  "b96",
-    "title":  "Build 96 - Filter the artifact sweep in PowerShell",
-    "commit":  "ac1fd0e",
+    "build":  97,
+    "tag":  "b97",
+    "title":  "Build 97 - Carry the Xcode project through a release asset",
+    "commit":  "b4a3c73",
     "kind":  "development",
     "sizeMb":  "64.2",
-    "publishedAt":  "2026-10-05T09:33:26Z",
+    "publishedAt":  "2026-10-05T09:51:23Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
