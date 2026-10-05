@@ -1,10 +1,10 @@
 {
-    "build":  98,
-    "tag":  "b98",
-    "title":  "Build 98 - Add a submit only workflow for a build already on TestFlight",
-    "commit":  "c68c467",
-    "kind":  "development",
-    "sizeMb":  "64.2",
-    "publishedAt":  "2026-10-05T09:58:53Z",
+    "build":  99,
+    "tag":  "b99",
+    "title":  "Build 99 - Note the IDFA message and the proven consent form",
+    "commit":  "149db0a",
+    "kind":  "release",
+    "sizeMb":  "34.6",
+    "publishedAt":  "2026-10-05T12:27:33Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
