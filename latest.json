@@ -1,10 +1,10 @@
 {
-    "build":  99,
-    "tag":  "b99",
-    "title":  "Build 99 - Note the IDFA message and the proven consent form",
-    "commit":  "149db0a",
+    "build":  101,
+    "tag":  "b101",
+    "title":  "Build 101 - Bake the splash opaque and refuse a headless bake",
+    "commit":  "8f0ccbe",
     "kind":  "release",
-    "sizeMb":  "34.6",
-    "publishedAt":  "2026-10-05T12:27:33Z",
+    "sizeMb":  "34.7",
+    "publishedAt":  "2026-10-05T12:51:21Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
