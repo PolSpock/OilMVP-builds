@@ -1,10 +1,10 @@
 {
-    "build":  95,
-    "tag":  "b95",
-    "title":  "Build 95 - Keep the Play Games adapter out of the iOS build",
-    "commit":  "089687a",
+    "build":  96,
+    "tag":  "b96",
+    "title":  "Build 96 - Filter the artifact sweep in PowerShell",
+    "commit":  "ac1fd0e",
     "kind":  "development",
-    "sizeMb":  "64.3",
-    "publishedAt":  "2026-10-05T09:15:39Z",
+    "sizeMb":  "64.2",
+    "publishedAt":  "2026-10-05T09:33:26Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
