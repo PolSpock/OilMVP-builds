@@ -1,10 +1,10 @@
 {
-    "build":  93,
-    "tag":  "b93",
-    "title":  "Build 93 - Point the plans README at ui-audit.js",
-    "commit":  "88f5e62",
+    "build":  94,
+    "tag":  "b94",
+    "title":  "Build 94 - Add the App Store review contact",
+    "commit":  "0f40c76",
     "kind":  "development",
     "sizeMb":  "64.3",
-    "publishedAt":  "2026-10-05T07:16:40Z",
+    "publishedAt":  "2026-10-05T08:43:41Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
