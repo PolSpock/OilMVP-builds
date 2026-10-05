@@ -1,10 +1,10 @@
 {
-    "build":  94,
-    "tag":  "b94",
-    "title":  "Build 94 - Add the App Store review contact",
-    "commit":  "0f40c76",
+    "build":  95,
+    "tag":  "b95",
+    "title":  "Build 95 - Keep the Play Games adapter out of the iOS build",
+    "commit":  "089687a",
     "kind":  "development",
     "sizeMb":  "64.3",
-    "publishedAt":  "2026-10-05T08:43:41Z",
+    "publishedAt":  "2026-10-05T09:15:39Z",
     "url":  "https://github.com/PolSpock/OilMVP/releases/latest/download/OilMVP.apk"
 }
